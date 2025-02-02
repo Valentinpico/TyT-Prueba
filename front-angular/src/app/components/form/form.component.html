@@ -1,0 +1,33 @@
+<div
+  class="my-4 text-lg bg-slate-100 p-4 rounded-md h-full w-11/12 sm:w-3/4 md:w-1/2 lg:w-2/5 xl:w-2/5 mt-40 mx-auto"
+>
+  <h1 class="text-2xl uppercase font-black text-blue-700 text-center my-2">
+    @if (register) { Registro } @else{ Iniciar sesión }
+  </h1>
+  <div class="flex flex-col">
+    @if (register) {
+    <app-user-register />
+    } @else{
+    <app-user-login [errors]="errors" />
+    }
+
+    <button
+      (click)="handleSubmit()"
+      class="text-center bg-blue-500 text-white uppercase rounded w-full my-2 p-1 hover:bg-blue-700 transition-all"
+    >
+      @if (register) { Registrar } @else{ Iniciar sesión }
+    </button>
+
+    <div class="flex justify-center text-sm text-gray-500 mt-3">
+      <span>
+        @if (register) {¿Ya tienes una cuenta? } @else{ ¿No tienes una cuenta?}
+      </span>
+      <button
+        (click)="toggleRegistrarIniciar()"
+        class="text-blue-500 ml-1 hover:underline"
+      >
+        @if (register) { Iniciar sesión } @else{ Registrarse }
+      </button>
+    </div>
+  </div>
+</div>

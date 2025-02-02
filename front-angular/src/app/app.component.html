@@ -1,0 +1,16 @@
+<app-navbar />
+
+@if (!haveToken) {
+
+<div class="">
+  <app-form />
+</div>
+} @else{
+
+<div class="flex mt-20 justify-center items-center">
+  <!-- <TodoList /> -->
+  lista de tareas
+</div>
+}
+
+<router-outlet />

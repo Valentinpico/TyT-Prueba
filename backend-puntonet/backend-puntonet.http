@@ -1,0 +1,6 @@
+@backend_puntonet_HostAddress = http://localhost:5268
+
+GET {{backend_puntonet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
