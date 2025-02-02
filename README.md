@@ -8,14 +8,14 @@ Para el backen de utlizo .Net 8 con auntenticacion JWT y contraseña encriptada 
 
 ## Enlaces a videos de prueba de las apps
 
-Angular App Url: [TO-DO App | ReactJS | Torres y Torres | Prueba tecnica](https://youtu.be/H7VY_P4q58Y)
+`Video React App Url:` [TO-DO App | ReactJS | Torres y Torres | Prueba tecnica](https://youtu.be/H7VY_P4q58Y)
 
-Angular App Url: [TO-DO App | AngularJS | Torres y Torres | Prueba tecnica](https://youtu.be/DnMKGi1NZv4)
+`Video Angular App Url:` [TO-DO App | AngularJS | Torres y Torres | Prueba tecnica](https://youtu.be/DnMKGi1NZv4)
 
 ## Documentaciones de las apps (como levantarlas)
 
-Punto Net App Url: [Backend Punto Net ](https://github.com/Valentinpico/TyT-Prueba/tree/main/backend-puntonet)
+`Punto Net App Url:` [Backend Punto Net ](https://github.com/Valentinpico/TyT-Prueba/tree/main/backend-puntonet)
 
-AngularJS App Url: [Frontend AngularJS ](https://github.com/Valentinpico/TyT-Prueba/tree/main/front-angular)
+`AngularJS App Url:` [Frontend AngularJS ](https://github.com/Valentinpico/TyT-Prueba/tree/main/front-angular)
 
-ReactJS App Url: [Frontend ReactJS ](https://github.com/Valentinpico/TyT-Prueba/tree/main/front-react)
+`ReactJS App Url:` [Frontend ReactJS ](https://github.com/Valentinpico/TyT-Prueba/tree/main/front-react)
