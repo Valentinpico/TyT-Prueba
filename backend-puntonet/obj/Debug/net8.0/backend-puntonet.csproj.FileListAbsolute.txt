@@ -168,3 +168,4 @@ C:\pruebas-tecnicas\INTEGRITY-SOLUTIONS\TORRE-Y-TORRE - copia\backend-puntonet\o
 C:\pruebas-tecnicas\INTEGRITY-SOLUTIONS\TORRE-Y-TORRE - copia\backend-puntonet\obj\Debug\net8.0\ref\backend-puntonet.dll
 C:\pruebas-tecnicas\INTEGRITY-SOLUTIONS\TORRE-Y-TORRE - copia\backend-puntonet\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\pruebas-tecnicas\INTEGRITY-SOLUTIONS\TORRE-Y-TORRE - copia\backend-puntonet\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\pruebas-tecnicas\INTEGRITY-SOLUTIONS\TORRE-Y-TORRE - copia\backend-puntonet\obj\Debug\net8.0\backend-puntonet.sourcelink.json

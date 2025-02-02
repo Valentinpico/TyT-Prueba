@@ -7,6 +7,7 @@ import { useStoreUtils } from "./store/useStoreUtils";
 import { FormUser } from "./components/User/FormUser";
 import { useEffect } from "react";
 import { useStoreUser } from "./store/useStoreUser";
+import { PieChart } from "./components/Chart/PieChart";
 
 function App() {
   const token = useStoreUser((state) => state.token);
@@ -31,8 +32,14 @@ function App() {
           <FormUser />
         </div>
       ) : (
-        <div className="flex mt-20 justify-center items-center ">
-          <TodoList />
+        <div className="mt-20 mx-auto  w-11/12 flex flex-col-reverse xl:flex-row sm:w-10/12 md:w-10/12 xl:w-10/12 lg:w-10/12 justify-center items-center gap-4 ">
+          <div className="bg-slate-100 p-4 rounded-md w-full lg:w-1/2 ">
+            <TodoList />
+          </div>
+
+          <div className="bg-slate-100 p-4 rounded-md w-full lg:w-1/2">
+            <PieChart />
+          </div>
         </div>
       )}
       <Toast

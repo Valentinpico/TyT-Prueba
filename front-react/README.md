@@ -1,7 +1,7 @@
 # Documentación del Frontend
 
 ```bash
-Nota: El token dura 5 minutos si pasa el tiempo y quiere realizar una accion dentro de la cuenta lo sacara para que inice sesion nuevamente
+Nota: El token dura 1 minuto si pasa el tiempo y quiere realizar una accion dentro de la cuenta lo sacara para que inice sesion nuevamente
 ```
 
 ## Descripción del Proyecto
@@ -9,6 +9,11 @@ Nota: El token dura 5 minutos si pasa el tiempo y quiere realizar una accion den
 Este es el frontend de una aplicación de lista de tareas (To-Do) sencilla con autenticación de usuarios. La interfaz fue creada utilizando React, Vite y TypeScript, con estilos modernos gracias a Tailwind CSS.
 
 se utilizaron otras librerias para mejorar la calidad de la app como Heroicons para calidad de interfaz y react-swipeable-list para hacer el deslizamiento de los todos, para hacer mas facil el desarrollo se utilizo Zustand para el manejo de estado globales, debido a su facilidad es muy bueno usarlo en proyectos
+
+---
+## Video de la App
+
+Url: [Video en youtube](https://youtu.be/H7VY_P4q58Y)
 
 ---
 
@@ -33,8 +38,9 @@ se utilizaron otras librerias para mejorar la calidad de la app como Heroicons p
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/Valentinpico/todo-list
-   cd todo-list
+   git clone https://github.com/Valentinpico/TyT-Prueba
+   cd TyT-Prueba
+   cd front-react
    ```
 
 2. Instala las dependencias:
@@ -50,7 +56,7 @@ se utilizaron otras librerias para mejorar la calidad de la app como Heroicons p
 Crea un archivo `.env` en el directorio raíz y añade la URL de la API:
 
 ```env
-VITE_API_URL=http://localhost:3000
+VITE_API_URL=https://localhost:7121/api
 ```
 
 Asegúrate de que el backend esté corriendo en el puerto correcto o ajusta la variable de entorno según corresponda.

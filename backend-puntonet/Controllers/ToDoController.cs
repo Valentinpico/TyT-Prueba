@@ -62,7 +62,7 @@ namespace backend_puntonet.Controllers
                 {
                     success = false,
                     message = "Token no válido o no proporcionado.",
-                    noToken = true
+                    notoken = true
                 });
             }
 
@@ -94,7 +94,7 @@ namespace backend_puntonet.Controllers
                 {
                     success = false,
                     message = "Token no válido o no proporcionado.",
-                    noToken = true
+                    notoken = true
                 });
             }
             if (toDoDTO == null)      
@@ -160,7 +160,7 @@ namespace backend_puntonet.Controllers
                 {
                     success = false,
                     message = "Token no válido o no proporcionado.",
-                    noToken = true
+                    notoken = true
                 });
             }
 
@@ -208,7 +208,7 @@ namespace backend_puntonet.Controllers
                 {
                     success = false,
                     message = "Token no válido o no proporcionado.",
-                    noToken = true
+                    notoken = true
                 });
             }
 

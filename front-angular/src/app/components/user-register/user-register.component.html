@@ -1,15 +1,32 @@
-<app-input name="username" label="Usuario" type="text" placeholder="Usuario" />
-<app-input name="email" label="Email" type="email" placeholder="Correo" />
 <app-input
-  name="password"
-  label="Contraseña"
-  type="password"
-  placeholder="Contraseña"
+  name="Username"
+  label="Usuario"
+  type="text"
+  placeholder="Usuario"
+  class="rounded-sm shadow-sm focus:outline-none mt-1 block px-3 py-2 w-full sm:text-sm"
+  [error]="false"
 />
-
 <app-input
-  name="password_confirmation"
-  label="Confirmar contraseña"
-  type="password"
-  placeholder="Confirmar contraseña"
+  name="Email"
+  label="Email"
+  type="text"
+  placeholder="Email"
+  class="rounded-sm shadow-sm focus:outline-none mt-1 block px-3 py-2 w-full sm:text-sm"
+  [error]="false"
+/>
+<app-input
+  name="Contraseña"
+  label="Contraseña"
+  type="text"
+  placeholder="Contraseña"
+  class="rounded-sm shadow-sm focus:outline-none mt-1 block px-3 py-2 w-full sm:text-sm"
+  [error]="false"
+/>
+<app-input
+  name="Repetri Contraseña"
+  label="Repetir Contraseña"
+  type="text"
+  placeholder="Repetir Contraseña"
+  class="rounded-sm shadow-sm focus:outline-none mt-1 block px-3 py-2 w-full sm:text-sm"
+  [error]="false"
 />
